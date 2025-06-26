@@ -5,7 +5,7 @@ FROM nginx:latest
 COPY index.html /usr/share/nginx/html/index.html
 
 # Expose port 80 for the NGINX container
-EXPOSE 80
+EXPOSE 8080
 
 # Start NGINX in the foreground
 CMD ["nginx", "-g", "daemon off;"]
