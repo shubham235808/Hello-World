@@ -1,5 +1,5 @@
 # Use the official NGINX image from Docker Hub
-FROM nginx:latest
+FROM quay.io/redhattraining/helloworld-nginx:latest
 
 # Copy a custom HTML file into the NGINX server
 COPY index.html /usr/share/nginx/html/index.html
